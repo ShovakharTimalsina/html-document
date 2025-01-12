@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback - Oxford Consultancy</title>
+    <link rel="stylesheet" type="text/css" href="feedback.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div><a href="index.html">Home</a> &nbsp;&nbsp;
+        <a href="about.html">About Us</a> &nbsp;&nbsp;
+        <a href="countries.html">Study Destinations</a> &nbsp;&nbsp;
+        <a href="testimonials.html">Testimonials</a> &nbsp;&nbsp;
+        <a href="faq.html">FAQs</a> &nbsp;&nbsp;
+        <a href="feedback.html">Feedback</a> &nbsp;&nbsp;
+        <a href="contact.html">Contact</a></div>
+    </nav>
+</header>
+
+    <section>
+    <h2>We Value Your Feedback</h2>
+    <p>Please let us know your thoughts and how we can improve our services.</p>
+    <form action="submit_feedback.php" method="post">
+       
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+        
+       
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+        
+        
+        <label for="message">Feedback:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your feedback here..." required></textarea><br><br>
+        
+       
+        <button type="submit">Submit Feedback</button>
+    </form>
+</section>
+
+<footer>
+        <p>&copy; 2024 Oxford Consultancy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
